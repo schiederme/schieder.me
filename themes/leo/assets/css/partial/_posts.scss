@@ -1,17 +1,31 @@
-header {
-  margin-bottom: 35px;
-  margin-top: 14px;
+div.container {
+  margin: 0px auto;
+  overflow-wrap: break-word;
+  hyphens: auto;
+  max-width: 620px;
+  padding: 45px;
 
-  h1 {
-    font-size: 28px;
-    margin-bottom: 7px;
-    font-weight: 500;
-    line-height: 1.3em;
+  header {
+    margin-bottom: 35px;
+    margin-top: 14px;
+
+    h1 {
+      font-size: 28px;
+      margin-bottom: 7px;
+      font-weight: 500;
+      line-height: 1.3em;
+    }
+
+    span {
+        font-size: 14px;
+        display: inline-block;
+        color: rgb(124, 124, 124);
+      }
   }
 
-  span {
-      font-size: 14px;
-      display: inline-block;
-      color: rgb(124, 124, 124);
-    }
+  p {
+    font-size: 16px;
+    line-height: 25px;
+    margin: 22px 0px;
+  }
 }
