@@ -1,8 +1,13 @@
 {{ partial "head.html" . }}
-  <h1>Maxi's Blog</h1>
-  <ul>
-    {{ range .Data.Pages }}
-      <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
-    {{ end }}
-  </ul>
+  <main>
+    <h1>Maxi's Blog</h1>
+    <ul>
+      {{ range .Data.Pages }}
+        <li><a href="{{ .Permalink }}">
+          <b>{{ .Title}}</b>
+          <span>{{.Date}}</span>
+        </a></li>
+      {{ end }}
+    </ul>
+  <main>
 {{ partial "footer.html" . }}
