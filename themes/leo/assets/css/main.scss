@@ -1,10 +1,10 @@
 @import "vendor/reset";
 
-* {
+*, h2, span {
   font-family: Arial, sans-serif;
 }
 
-main {
+main, header {
   padding: 45px;
 }
 
