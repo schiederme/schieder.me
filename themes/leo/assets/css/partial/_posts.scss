@@ -1,7 +1,6 @@
 div.container {
   margin: 0px auto;
   overflow-wrap: break-word;
-  hyphens: auto;
   max-width: 620px;
   padding: 45px;
 
@@ -27,5 +26,11 @@ div.container {
     font-size: 16px;
     line-height: 25px;
     margin: 22px 0px;
+  }
+
+  a {
+    color: #F03F53;
+    text-decoration: none;
+    border-bottom: 1px dashed;
   }
 }
