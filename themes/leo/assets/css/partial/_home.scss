@@ -30,6 +30,16 @@ main.home {
           margin-top: 4px;
           opacity: 0;
           }
+
+          &:hover {
+            b {
+              color: rgb(0, 0, 0);
+            }
+
+            span {
+              opacity: 1;
+            }
+          }
         }
       }
     }
