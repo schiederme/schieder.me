@@ -1,4 +1,5 @@
 <header>
   <h1>{{ .Page.Title }}</h1>
-  <span>{{ .Date }}</span>
+  <span>{{ .Date.Format "January 2, 2006" }}</span>
+  <span class= "read-time"> Estimated read time {{ .ReadingTime}} min</span>
 </header>
