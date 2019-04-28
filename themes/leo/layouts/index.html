@@ -1,11 +1,11 @@
 {{ partial "head.html" . }}
   <main class="home">
-    <h1>Maxi's Blog</h1>
+    <h1>{{.Site.Title}}</h1>
     <ul>
       {{ range .Data.Pages }}
         <li><a href="{{ .Permalink }}">
           <b>{{ .Title }}</b>
-          <span>{{ .Date.Format "January 2, 2006" }}</span>
+          <span>{{ .Date.Format "Jan 2, 2006" }}</span>
         </a></li>
       {{ end }}
     </ul>
