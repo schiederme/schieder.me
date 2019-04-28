@@ -5,13 +5,30 @@ div.back-button {
   position: absolute;
   right: 30px;
   top: 40px;
+
+  a {
+    transition: all .2s;
+    font-size: 22px;
+    line-height: 66px;
+    text-align: center;
+    background: #efefef;
+    font-weight: bold;
+    box-sizing: border-box;
+    color: #000;
+    height: inherit;
+    display: block;
+    width: inherit;
+    border-radius: 100%;
+    text-decoration: none;
+  }
 }
 
-div.container {
+article.post {
   margin: 0px auto;
   overflow-wrap: break-word;
   max-width: 620px;
   padding: 45px;
+  hyphens: auto;
 
   header {
     margin-bottom: 35px;
