@@ -1,7 +1,10 @@
 baseURL: http://example.org/
 languageCode: en-us
-title: My New Hugo Site
+title: Maxi's Blog
 theme: leo
 
 permalinks:
   posts: /:year/:month/:day/:title/
+
+params:
+  description: Hey! We are Maxi and Alex, two developers from Germany.
