@@ -1,4 +1,4 @@
-baseURL: http://example.org/
+baseURL: https://schieder.me
 languageCode: en-us
 title: Maxi´s Blog
 theme: leo
@@ -7,4 +7,4 @@ permalinks:
   posts: /:year/:month/:day/:title/
 
 params:
-  description: Hey! We are Maxi and Alex, two developers from Germany.
+  description: Maximilian Schieder
