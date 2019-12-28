@@ -2,9 +2,10 @@
 title: "Let´s lern a few habits"
 draft: false
 date: 2019-06-21T04:50:00+02:00
+tags: ["update", "habits"]
 ---
 
-Yesterday I published a short Blog Post, with an Update about the Blog. I noticed, that I feelt a lot better after publishing it. Whene I write, I´m in a small world with endless posibilitys. 
+Yesterday I published a short Blog Post, with an Update about the Blog. I noticed, that I feelt a lot better after publishing it. Whene I write, I´m in a small world with endless posibilitys.
 
 Every so often I struggle with depression and anxiety. But I want to take my life in my own hands. So in the next 30 days, I will try to learn a few habits. This will help me getting more done and beaing more "wightless".
 
