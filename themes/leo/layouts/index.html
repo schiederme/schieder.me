@@ -1,13 +1,22 @@
 {{ partial "head.html" . }}
-  <main class="home">
-    <h1>{{.Site.Title}}</h1>
-    <ul>
-      {{ range .Data.Pages }}
-        <li><a href="{{ .Permalink }}">
-          <b>{{ .Title }}</b>
-          <span>{{ .Date.Format "Jan 2, 2006" }}</span>
-        </a></li>
-      {{ end }}
-    </ul>
-  </main>
-{{ partial "footer.html" . }}
+      <main aria-role="main" class="home">
+        <div class="homepage-content">
+          <!-- Note that the content for index.html, as a sort of list page, will pull from content/_index.md -->
+          {{.Content}}
+        </div>
+        <section style="border-top: 1px solid #333333;">
+          {{ range first 3 .Data.Pages }}
+            <article class="preview">
+              <a href="{{ .Permalink }}">
+                <time>{{ .Date.Format "Jan 2, 2006" }}</time>
+                <h2>{{ .Title }}</h2>
+                {{ range .Params.tags }}
+                  {{ $href := print (absURL "tags/") (urlize .) }}
+                  <small><code><a href="{{ $href }}">#{{ . }}</a></code></small>
+                {{ end }}
+              </a>
+            </article>
+          {{ end }}
+        </section>
+      </main>
+    {{ partial "footer.html" . }}

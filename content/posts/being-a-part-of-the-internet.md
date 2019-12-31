@@ -1,6 +1,6 @@
 ---
 title: "Being a part of the Internet"
-draft: true
+draft: false
 date: 2019-06-21T04:50:00+02:00
 ---
 

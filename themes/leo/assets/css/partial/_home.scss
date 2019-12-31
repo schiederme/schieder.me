@@ -1,15 +1,17 @@
 main.home {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
   padding: 45px;
 
   h1 {
     font-size: 40px;
-    margin: 0px 0px 40px;
   }
 
   ul {
     li {
       margin: 22px 0px;
-      
+
       a {
         text-decoration: none;
 
@@ -46,3 +48,11 @@ main.home {
       }
     }
   }
+
+/*
+margin: 0 0 30px;
+
+line-height: 1.5em;
+
+font-size: 20px;
+ */
